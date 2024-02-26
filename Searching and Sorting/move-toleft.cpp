@@ -7,10 +7,10 @@ void moveNegativetoLeft(int arr[], int n){
     int l = 0;
     int h = n - 1;
     while(l < h){
-        if(arr[l]<0){
+        if(arr[l] < 0){
             l++;
         }
-        else if(arr[h]>0){
+        else if(arr[h] > 0){
             h--;
         }
         else{
