@@ -1,3 +1,5 @@
+//by noop approach
+
 #include<iostream>
 using namespace std;
 
