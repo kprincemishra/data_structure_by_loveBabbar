@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a= 50;
+    int a = 50;
     int* ptr = &a;
     int** ptr1 = &ptr;
     cout<<"----content of a :-----"<<endl;
