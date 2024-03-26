@@ -10,11 +10,12 @@ int fact(int n){
     //recursive relation
     int recursiveAns = fact(n - 1);
     //processing
+    
     int ans = n * recursiveAns;
     return ans;
 }
 int main()
 {
-    cout<<fact(5);
+    cout<<"The factorial of a number is : "<<fact(5);
     return 0;
 }
